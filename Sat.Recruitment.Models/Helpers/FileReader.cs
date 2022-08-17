@@ -1,17 +1,15 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 
-namespace Sat.Recruitment.Api.Controllers
+namespace Sat.Recruitment.Models.Helpers
 {
-    public partial class UsersController
+    public static class FileReader
     {
-        private StreamReader ReadUsersFromFile()
+        public static StreamReader ReadUsersFromFile()
         {
             var path = Directory.GetCurrentDirectory() + "/Files/Users.txt";
-
             FileStream fileStream = new FileStream(path, FileMode.Open);
-
             StreamReader reader = new StreamReader(fileStream);
+            
             return reader;
         }
     }

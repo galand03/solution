@@ -1,0 +1,361 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj",
+        "projectName": "Sat.Recruitment.Api",
+        "projectPath": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Api\\Sat.Recruitment.Api.csproj",
+        "packagesPath": "C:\\Users\\LAUGAL\\.nuget\\packages\\",
+        "outputPath": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LAUGAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.DAO\\Sat.Recruitment.DAO.csproj": {
+                "projectPath": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.DAO\\Sat.Recruitment.DAO.csproj"
+              },
+              "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Services\\Sat.Recruitment.Services.csproj": {
+                "projectPath": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Services\\Sat.Recruitment.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.DAO\\Sat.Recruitment.DAO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.DAO\\Sat.Recruitment.DAO.csproj",
+        "projectName": "Sat.Recruitment.DAO",
+        "projectPath": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.DAO\\Sat.Recruitment.DAO.csproj",
+        "packagesPath": "C:\\Users\\LAUGAL\\.nuget\\packages\\",
+        "outputPath": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.DAO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LAUGAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Factory\\Sat.Recruitment.Factory.csproj": {
+                "projectPath": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Factory\\Sat.Recruitment.Factory.csproj"
+              },
+              "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Models\\Sat.Recruitment.Models.csproj": {
+                "projectPath": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Models\\Sat.Recruitment.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Factory\\Sat.Recruitment.Factory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Factory\\Sat.Recruitment.Factory.csproj",
+        "projectName": "Sat.Recruitment.Factory",
+        "projectPath": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Factory\\Sat.Recruitment.Factory.csproj",
+        "packagesPath": "C:\\Users\\LAUGAL\\.nuget\\packages\\",
+        "outputPath": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Factory\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LAUGAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Models\\Sat.Recruitment.Models.csproj": {
+                "projectPath": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Models\\Sat.Recruitment.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Models\\Sat.Recruitment.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Models\\Sat.Recruitment.Models.csproj",
+        "projectName": "Sat.Recruitment.Models",
+        "projectPath": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Models\\Sat.Recruitment.Models.csproj",
+        "packagesPath": "C:\\Users\\LAUGAL\\.nuget\\packages\\",
+        "outputPath": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LAUGAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Services\\Sat.Recruitment.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Services\\Sat.Recruitment.Services.csproj",
+        "projectName": "Sat.Recruitment.Services",
+        "projectPath": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Services\\Sat.Recruitment.Services.csproj",
+        "packagesPath": "C:\\Users\\LAUGAL\\.nuget\\packages\\",
+        "outputPath": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LAUGAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.DAO\\Sat.Recruitment.DAO.csproj": {
+                "projectPath": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.DAO\\Sat.Recruitment.DAO.csproj"
+              },
+              "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Factory\\Sat.Recruitment.Factory.csproj": {
+                "projectPath": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Factory\\Sat.Recruitment.Factory.csproj"
+              },
+              "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Models\\Sat.Recruitment.Models.csproj": {
+                "projectPath": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Models\\Sat.Recruitment.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

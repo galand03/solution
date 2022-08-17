@@ -1,0 +1,13 @@
+C:\workspace\Sat.Recruitment\Sat.Recruitment.Factory\bin\Debug\netcoreapp3.1\Sat.Recruitment.Factory.deps.json
+C:\workspace\Sat.Recruitment\Sat.Recruitment.Factory\bin\Debug\netcoreapp3.1\Sat.Recruitment.Factory.dll
+C:\workspace\Sat.Recruitment\Sat.Recruitment.Factory\bin\Debug\netcoreapp3.1\Sat.Recruitment.Factory.pdb
+C:\workspace\Sat.Recruitment\Sat.Recruitment.Factory\bin\Debug\netcoreapp3.1\Sat.Recruitment.Models.dll
+C:\workspace\Sat.Recruitment\Sat.Recruitment.Factory\bin\Debug\netcoreapp3.1\Sat.Recruitment.Models.pdb
+C:\workspace\Sat.Recruitment\Sat.Recruitment.Factory\obj\Debug\netcoreapp3.1\Sat.Recruitment.Factory.csproj.AssemblyReference.cache
+C:\workspace\Sat.Recruitment\Sat.Recruitment.Factory\obj\Debug\netcoreapp3.1\Sat.Recruitment.Factory.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\Sat.Recruitment\Sat.Recruitment.Factory\obj\Debug\netcoreapp3.1\Sat.Recruitment.Factory.AssemblyInfoInputs.cache
+C:\workspace\Sat.Recruitment\Sat.Recruitment.Factory\obj\Debug\netcoreapp3.1\Sat.Recruitment.Factory.AssemblyInfo.cs
+C:\workspace\Sat.Recruitment\Sat.Recruitment.Factory\obj\Debug\netcoreapp3.1\Sat.Recruitment.Factory.csproj.CoreCompileInputs.cache
+C:\workspace\Sat.Recruitment\Sat.Recruitment.Factory\obj\Debug\netcoreapp3.1\Sat.Recruitment.Factory.csproj.CopyComplete
+C:\workspace\Sat.Recruitment\Sat.Recruitment.Factory\obj\Debug\netcoreapp3.1\Sat.Recruitment.Factory.dll
+C:\workspace\Sat.Recruitment\Sat.Recruitment.Factory\obj\Debug\netcoreapp3.1\Sat.Recruitment.Factory.pdb

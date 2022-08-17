@@ -1,3 +1,4 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -5,7 +6,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-
+using Sat.Recruitment.DAO.User;
+using Sat.Recruitment.Factory.User;
+using Sat.Recruitment.Models.Mapper;
+using Sat.Recruitment.Services.User;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +31,19 @@ namespace Sat.Recruitment.Api
         {
             services.AddControllers();
             services.AddSwaggerGen();
+
+            var mapperConfig = new MapperConfiguration(m =>
+            {
+                m.AddProfile(new Mapping());
+            });
+
+            IMapper mapper = mapperConfig.CreateMapper();
+            services.AddSingleton(mapper);
+            services.AddSingleton<IUserFactory, UserFactory>();
+            services.AddSingleton<IDAOUser, DAOUser>();
+            services.AddScoped<IUserService, UserService>();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,7 +64,7 @@ namespace Sat.Recruitment.Api
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.ApplicationServices.GetService<IDAOUser>().Seed();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

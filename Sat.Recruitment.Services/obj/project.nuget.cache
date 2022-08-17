@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "4b0lsAO28FGY8Dt6m+hPgN9yB8DkAmH170I/oHWC4l1GW/g2kH8OXI1SqFlam1wKI7OARgc+NQqq4hUztJEsFA==",
+  "success": true,
+  "projectFilePath": "C:\\workspace\\Sat.Recruitment\\Sat.Recruitment.Services\\Sat.Recruitment.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LAUGAL\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\LAUGAL\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\LAUGAL\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
